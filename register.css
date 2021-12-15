@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: RudawRegular;
+}
+
+.header{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header a{
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family:'Franklin Gothic Medium';
+}
+
+.header a:hover{
+    color: blue;
+}
+
+.header h1{
+    font-size: 16px;
+    color: black;
+    align-items: center;
+    font-family:'Franklin Gothic Medium';
+}
+
+
+
+/*---------------------- navbar section ---------------*/
+
+.navbar{
+    width: 100%;
+    height: 8%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: rgb(36, 36, 59);
+    display: flex;  
+}
+
+.admin a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: RudawRegular;
+}
+
+.list{
+    transform: translateX(10%);
+}
+
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 2px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-family: RudawRegular;
+    transition: 1s;
+}
+
+.list ul li a:hover{
+    background-color: white;
+    color: rgb(36, 36, 59);
+}
+
+.menu_icon img{
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+    display: none;
+}
+
+
+
+
+
+/*---------- marquee section -----------*/
+
+
+.text_section{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text_section marquee{
+    color: black;
+    font-size: 14px;        
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(36, 36, 59);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 20px 10px rgb(83, 83, 114,0.4);
+}
+
+
+
+
+/*-------------- reklam section -----------*/
+
+.reklam{
+    width: 80%;
+    margin: auto;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    
+}
+
+.reklam_iamge{
+    margin: 10px 40px;
+    cursor: pointer;    
+}
+
+.reklam_iamge img{
+    width: 100px;
+    height:100px;
+    margin: auto;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.reklam_iamge a{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(36, 36, 59)
+}
+
+.reklam_iamge img:hover{
+    transform: scale(1.1);
+}
+
+.reklam_iamge h2{
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/*---------------- register section------------------*/
+
+
+.register{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+.register h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:  10px;
+}
+
+.register h1{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 3%;
+}
+
+ input{
+    width: 55%;
+    padding: 5px 5px;
+    color: black;
+    font-size: 14px;
+    text-align: right;
+    border: 0;
+    font-family: RudawRegular;
+    margin: 10px 20px;
+    border-radius: 4px;
+    border-bottom: 2px solid rgb(83, 83, 114);
+}
+
+.phone_no{
+    width: 25%;
+}
+
+.day{
+    width: 18%;
+    margin: 5px 8px;
+    font-size: 16px;;
+}
+
+#logo{
+    background-color: rgb(83, 83, 114);
+    padding: 5px 5px;
+    width: 40%;
+    margin-top: 5%;
+}
+
+ select{
+    width: 25%;
+    padding: 5px 5px;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    border: 0;
+    font-family: RudawRegular;
+    margin: 10px 20px;
+    border-radius: 5px;
+    background: rgb(83, 83, 114);
+  }
+
+.register textarea{
+    width: 60%;
+    height: 15%;
+    margin-top: 10px ;
+    font-size: 14px;
+    text-align: right;
+    font-family: RudawRegular;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.register button{
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0  rgb(36, 36, 59);
+    color: rgb(36, 36, 59);
+    border-radius: 20px;
+    margin: 2% 0 ;
+    padding: 6px 0;
+    font-size: 14px;
+    border: 0;
+    font-family: RudawRegular;
+    transition: 0.5s;
+    
+}
+
+.register button:hover{
+    background: rgb(36, 36, 59);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:450px) {
+
+    select{
+        width: 70%;
+        text-align: right;
+    }
+
+    input{
+        width: 70%;
+        text-align: right;
+    }
+
+    .phone_no{
+        width: 70%;
+    }
+    .register textarea{
+        width: 80%;
+    }
+
+    .day{
+        width: 30%;
+        font-size: 14px;
+    }
+
+    #logo{
+        width: 35%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- media section ------------*/
+
+@media only screen and (max-width:1100px) {
+  
+
+    .header{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .admin{
+        display: block;
+    }
+
+    .navbar{
+        justify-content: space-around;
+    }
+
+    .menu_icon {
+        display: none; 
+    }
+
+    .search input{
+        width: 50%;
+    }
+
+    .reklam_iamge img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+@media only screen and (max-width:850px) {
+  
+    .header{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .admin{
+        display: none;
+    }
+
+    .navbar{
+        justify-content: space-around;
+    }
+
+    .logo{
+        margin-right: 10px;
+    }
+    .list{
+        margin-right: 10%;
+    }
+
+    .list ul li a{
+        padding: 5px 15px ;
+    }
+    .menu_icon {
+        display: none; 
+    }
+
+    .search input{
+        width: 40%;
+    }
+
+    .reklam_iamge img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+  
+    .list ul  {
+        width: 50%;
+        background-color: rgb(36, 36, 59);
+        position: absolute;
+        top: 10%;
+        right: 0; 
+        z-index: 2;
+    }
+
+    .list ul li{
+        display:block;
+        margin: 12px 0;    
+        padding: 0 5%; 
+        text-align: left;
+        
+    }
+
+    #menu_list{
+        overflow: hidden;
+        transition: 0.8s;
+    }
+
+    .admin{
+        display: none;  
+    }
+
+    .header{
+        justify-content: space-around;
+    }
+
+    .header a{
+        display: none;
+    }
+
+    .navbar{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-left: -50%;
+    }
+
+    .menu_icon {
+        display: block; 
+    }
+
+    .reklam_iamge{
+        margin: 10px 10px;
+    }
+    .reklam_iamge img{
+        width: 60px;
+        height: 60px;
+    }
+
+   .search input{
+       width: 60%;
+   }
+
+}
+
+
+
+@media only screen and (max-width:420px) {
+  
+    .list ul  {
+        width: 50%;
+        background-color: rgb(36, 36, 59);
+        position: absolute;
+        top: 10%;
+        right: 0; 
+        z-index: 2;
+    }
+
+    .list ul li{
+        display:block;
+        margin: 12px 0;    
+        padding: 0 5%; 
+        text-align: left;
+        
+    }
+
+    #menu_list{
+        overflow: hidden;
+        transition: 0.8s;
+    }
+
+    .admin_icon{
+        display: none;  
+    }
+
+    .search_seaction{
+        display: none;
+    }
+
+    .logo{
+        margin-right: 10%;
+    }
+    .logo img{
+        width: 115px;
+        height: 30px;
+    }
+
+    .menu_icon img{
+        width: 100%;
+        height: 100%;
+        display: block; 
+    }
+
+    .reklam_iamge{
+        margin: 10px 10px;
+    }
+    .reklam_iamge img{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+
+
+/*--------------- media section 1 --------------*/
+
+@media only screen and (max-width:380px) {
+  
+    .list ul  {
+        width: 50%;
+        background-color: rgb(36, 36, 59);
+        position: absolute;
+        top: 10%;
+        right: 0; 
+        z-index: 2;
+    }
+
+    .list ul li{
+        display:block;
+        margin: 12px 0;    
+        padding: 0 5%; 
+        text-align: left;
+        
+    }
+
+    #menu_list{
+        overflow: hidden;
+        transition: 0.8s;
+    }
+
+    .admin_icon{
+        display: none;  
+    }
+
+    .search_seaction{
+        display: none;
+    }
+
+    .logo{
+        margin-right: 10%;
+    }
+    .logo img{
+        width: 90px;
+        height: 30px;
+    }
+
+    .menu_icon img{
+        width: 100%;
+        height: 100%;
+        display: block; 
+    }
+
+    .reklam_iamge{
+        margin: 10px 6px;
+    }
+    .reklam_iamge img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .city img{
+        width: 120px;
+        height: 110px;
+    }
+}
+
+
+@media only screen and (max-width:290px) {
+  
+    .list ul  {
+        width: 50%;
+        background-color: rgb(36, 36, 59);
+        position: absolute;
+        top: 10%;
+        right: 0; 
+        z-index: 2;
+    }
+
+    .list ul li{
+        display:block;
+        margin: 12px 0;    
+        padding: 0 5%; 
+        text-align: left;
+        
+    }
+
+    #menu_list{
+        overflow: hidden;
+        transition: 0.8s;
+    }
+
+   .search input{
+       width: 50%;
+   }
+
+    .logo{
+        margin-right: 0%;
+    }
+    .logo img{
+        width: 90px;
+        height: 30px;
+    }
+
+    .menu_icon img{
+        width: 100%;
+        height: 100%;
+        display: block; 
+    }
+
+    .reklam_iamge{
+        margin: 10px 3px;
+    }
+    .reklam_iamge img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .city img{
+        width: 85px;
+        height: 100px;
+        margin: 5px 2px;
+    }
+
+}
+
